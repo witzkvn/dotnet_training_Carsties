@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4184922F-1E7D-44B4-BDFD-E0703BD303D3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuctionService", "src\AuctionService\AuctionService.csproj", "{BC4509B8-199A-4D78-8508-D512F70E0986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{3DE41E95-6D7D-48E9-955F-AEC9964486BC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC4509B8-199A-4D78-8508-D512F70E0986}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4509B8-199A-4D78-8508-D512F70E0986}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4509B8-199A-4D78-8508-D512F70E0986}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4509B8-199A-4D78-8508-D512F70E0986}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC4509B8-199A-4D78-8508-D512F70E0986} = {4184922F-1E7D-44B4-BDFD-E0703BD303D3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E09D47A-A672-4E25-8C26-1EC3E94A749C}
+	EndGlobalSection
+EndGlobal
